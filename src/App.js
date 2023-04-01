@@ -5,7 +5,7 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename = "users-app">
     <Routes>
       <Route path="/" element={<Dashboard/>}/>
       <Route path="/Login" element={<Login/>}/>

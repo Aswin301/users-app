@@ -8,13 +8,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
     "bootstrap-icons": "^1.10.3",
+    "gh-pages": "^5.0.0",
+    "homepage": "https://github.com/Aswin301/users-app",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,4 +43,5 @@
       "last 1 safari version"
     ]
   }
+
 }
